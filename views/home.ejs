@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="theme-color" content="#2196F3">
+        <title>Husky Student Store</title>
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    
+        <!-- CSS  -->
+        <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+        <link href="min/custom-min.css" type="text/css" rel="stylesheet">        
+    </head>
+    <body id="top" class="scrollspy">
+    
+    <!-- Pre Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+     
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+     
+    </div>
+    <%- include('partials/nav.ejs') %>
+    <%- include('partials/hero.ejs') %>
+    <%- include('partials/services.ejs') %>
+    <%- include('partials/goods.ejs') %>
+    <!--Parallax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/parallax1.png"></div>
+    </div>
+    <%- include('partials/team.ejs') %>
+    <%- include('partials/footer.ejs') %>
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+
+    </body>
+</html>
